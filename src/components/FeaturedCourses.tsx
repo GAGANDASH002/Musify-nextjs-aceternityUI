@@ -52,10 +52,12 @@ function FeaturedCourses() {
       <div className="mt-20 text-center">
       <Link
   href="/courses"
-  className="px-6 py-2 rounded-full text-black bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 border-0 shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105"
+  className="inline-block px-6 py-2 rounded-full font-semibold border border-teal-600 text-white bg-gradient-to-r from-teal-500 to-purple-600 hover:from-teal-600 hover:to-purple-700 shadow-md transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg"
 >
   View All Courses
 </Link>
+
+
 
       </div>
     </div>
